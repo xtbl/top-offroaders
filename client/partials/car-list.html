@@ -1,11 +1,11 @@
-
-<div>
-	<ul>
-		<li ng-repeat="car in cars">
+<h2>Top Offroaders</h2>
+<div class="row">
+	<div class="col-md-3" ng-repeat="car in cars">
+		<div class="tile">
 			<a ng-click="go('/cars/' + car.id)">
-				<img ng-src="images/{{ car.image }}">
-				<p>{{ car.name }}</p>
+				<img ng-src="images/{{ car.image }}" class="car-image big-illustration">
+				<p>{{ car.name | cut:true:20:'...' }}</p>
 			</a>
-		</li>
-	</ul>
+		</div>
+	</div>
 </div>

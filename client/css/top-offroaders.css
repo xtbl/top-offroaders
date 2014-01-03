@@ -1,0 +1,13 @@
+.container {
+	max-width: 970px !important;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.car-image.big-illustration {
+	height: 90%;
+	width: 90%;
+	margin-top: 20px;
+}
