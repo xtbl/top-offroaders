@@ -2,7 +2,7 @@
 <div>
 	<ul>
 		<li ng-repeat="car in cars">
-			<a href="#">
+			<a ng-click="go('/cars/' + car.id)">
 				<img ng-src="images/{{ car.image }}">
 				<p>{{ car.name }}</p>
 			</a>
