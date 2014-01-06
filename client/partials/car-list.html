@@ -1,10 +1,10 @@
 <h2>Top Offroaders</h2>
 <div class="row">
 	<div class="col-md-3" ng-repeat="car in cars">
-		<div class="tile">
+		<div class="tile car-list-item">
 			<a ng-click="go('/cars/' + car.id)">
 				<img ng-src="images/{{ car.image }}" class="car-image big-illustration">
-				<p>{{ car.name | cut:true:20:'...' }}</p>
+				<p class="highlighted-bg">{{ car.name | cut:true:20:'...' }}</p>
 			</a>
 		</div>
 	</div>

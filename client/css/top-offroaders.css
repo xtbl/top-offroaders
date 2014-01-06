@@ -11,3 +11,21 @@
 	width: 90%;
 	margin-top: 20px;
 }
+
+.full-background {
+	background-image:url('../images/bg-jeep-rubicon.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.highlighted-bg {
+	margin-bottom: none;
+}
+
+.tile.car-list-item {
+	background-color: none;
+	border-radius: 0px;
+	padding: 0px;
+}
